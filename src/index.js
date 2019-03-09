@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { ButtonContainer } from "./Components/Button_styled/Button_Styled";
+import SocialCard from "./Components/SocialCard";
 const App = () => {
   return (
     <React.Fragment>
@@ -9,6 +10,8 @@ const App = () => {
       <ButtonContainer>Hello</ButtonContainer>
       <ButtonContainer secondary>Hello</ButtonContainer>
 
+
+<SocialCard/>
     </React.Fragment>
   );
 };
