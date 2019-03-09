@@ -8,10 +8,10 @@ Simple Animated button made with styled components.
 
 ## Props:
 
-| Attribute | Value                                 |
-| --------- | ------------------------------------- |
-| secondary | default: --mainYellow                 |
-| primary   | if props = null, default: --lightBlue |
+| Attribute | Value                                   |
+| --------- | --------------------------------------- |
+| secondary | default: --mainYellow                   |
+| primary   | if no props are passed, This is default |
 
 colors can be manually added in button_styled.css as per theme
 

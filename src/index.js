@@ -5,7 +5,10 @@ const App = () => {
   return (
     <React.Fragment>
       <h3>Animated Styled Components Buttons:</h3>
-      <ButtonContainer>Button</ButtonContainer>
+
+      <ButtonContainer>Hello</ButtonContainer>
+      <ButtonContainer secondary>Hello</ButtonContainer>
+
     </React.Fragment>
   );
 };
